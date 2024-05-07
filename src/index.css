@@ -1,0 +1,28 @@
+.img-cover {
+    object-fit: cover; /* Cover the container, might crop the image */
+    width: 100%; /* Ensure it covers the width */
+    height: 100%; /* Ensure it covers the height, might need to adjust container's height */
+}
+
+.centered-container {
+    width: 80%; /* Adjust the width as needed */
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+  }
+
+
+.footer-link {
+    padding: 5px 10px; /* Adjust padding as needed */
+    margin: 2px; /* Adjust margin to control spacing between links */
+    display: inline-block; /* This makes it easier to control the width */
+    border-radius: 5px; /* Optional: Adds rounded corners to your links */
+  }
+  
+  .footer-link-active {
+    background-color: #007bff; /* Adjust active link background color as needed */
+    color: white; /* Adjust text color as needed */
+    border: 1px solid transparent; /* Adjust or remove border as needed */
+  }
+  
+  
